@@ -1,0 +1,66 @@
+"GIT"
+
+comandos:
+
+-git init -> solo se usa una ves.
+
+-git starus -> estatus del archivo y muestra si no hay archivos sin segimiento.
+
+-git add (Nombre del Archivo) -> hacer seguimiento a un archivo.
+
+-clear -> limpiar la consola de git.
+
+-git rm --cached (Nombre del Alchivo -> se deja de har seguiminto al archivo.
+
+-git commit -m "nombre" -> trasladar archivos o archivo en el repositorio local.
+
+-git status -s -> muesta los archivos y carpetas del proyecto.
+
+-git log --oneline -> muestra todos los cambios realizados y guardados en el repositorio.
+
+-git log -p -> muestra los detalles por archivo.
+
+-git log -p -(numero de archivo 1,2,3,..) -> muestra los detalles del archivo seleccionado.
+
+-git log -star -> muestra resumido los cambios que se realizaron y en que archivo se realizaron los cambios.
+
+-git reset --hard -> restaurar archivo.
+
+-git reset HEAD (Nombre de archivo) -> se selecciona el archovo al que no se le quiera dar seguimiento.
+
+-git checkout -- (Nombre de archivo) -> se recetea el archovo a una version anterior. 
+
+-git add . -> da segimiento a todos los archivos o carpetas de un proyecto.
+
+-git commit -am "Comentorio" -> dar segimiento, guardar en el repositorio los cambios y agregar comentario.
+
+-git tag -a (Nombre de etiqueta que sea) (codigo del commit) -m "comentari" -> crear nueva etiqueta y se selecciona el codigo del commit o version al que se le quiera agregar en git.
+
+-git tag -> muestra todas las etiquetas que allamos creado.
+
+-git tag -d (nombre de etiquta) -> Eliminar etiquta.
+
+-git show (Nombre de la etiqueta o codigo del commit) -> muestra los detalles del commit o version que se aya seleccionado.
+
+-git branch (Nombre de rama) -> se crea una nueva rama en el proyecto.
+ 
+-git checkout (Nombre de la rama) -> nos podemos mover en tre ramas.
+
+-git checkout -b (Nomde de rama) -> se crea una nueva rama y nos coloca dentro de la rama.
+
+-git merge (Nombre de la rama a fucionar) -> se fucionan ramas y los se fucionan los cambios o se ayan realizado de la rama que se quiere fucionar.
+
+-git branch -d (Nombre de la rama a eliminar) -> se elimina la rama.
+
+-git init --bare -> Iniciar repositorio pero como servidor.
+
+-git remote add origin (Direccion del servidor(nombre de maquina o ip) y la carpeta direccion de la carpeta) -> conecion a servidor y a la carpeta del proyecto o repositorio.
+
+-git push origin master -> Enviar todos los cambios y archivos realidos a la carpeta del proyecto en el servidor.
+
+-git remote -v -> Muestra la ruta remota endonde se encuentra el proyecto.
+
+-git clone (Direccion del servidor(nombre de maquina o ip) y la carpeta direccion de la carpeta) -> clonar archivos
+
+
+
